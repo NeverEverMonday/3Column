@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+/*Page Styles*/
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend+Deca';
+  margin-bottom: 20px;
+}
+
+body {
+  font-size: 15px;
+}
+
+h2 {
+  font-family: 'Big+Shoulders';
+  color: hsl(0, 0%, 95%);
+}
+
+/******Class Styles*******/
+
+.ContentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.heading {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-left: 5px;
+}
+
+.Car {
+  padding: 40px 25px;
+}
+
+.Sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 5px 0 0;
+}
+
+.Sedans a {
+  color: hsl(31, 77%, 52%);
+}
+
+.SUVs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.SUVs a {
+  color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.Luxury a {
+  color:  hsl(179, 100%, 13%);
+}
+
+a:link {
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 5px 15px;
+}
+
+a:active {
+  background-color: inherit;
+  color: white;
+  border: 1px solid white;
+}
+
+/******Media Querries*******/
+@media screen and (min-width: 700px) {
+p {
+  padding-bottom: 50px;
+}
+
+.ContentContainer {
+  flex-direction: row;
+  padding-top: 100px;
+  height: 60vh;
+}
+
+.attribution {
+  margin-left: auto;
+}
+
+}
